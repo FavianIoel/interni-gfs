@@ -1,15 +1,15 @@
 #id{
 	max-width: 940px;
 	margin: 0 auto;
-	padding: :0 5%;
+	padding:0 5%;
 }
 #logo{
 	text-align: center;
 	margin: 0;
 }
 #gallery{
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 #gallery li{
@@ -20,25 +20,42 @@
 	color: #bdc3c7;
 } 
 #gallery li a p{
-	margin:0;
+	margin: 0;
 	padding: 5%;
 	font-size: 0.75em;
-	color:#bdc3c7;
+	color: #bdc3c7;
 }
 a{
 	color: #6ab47b;
 }
 img{
 	max-width: 100%;
-
+}
+h1{
+	font-family: 'Changa One',sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em
+}
+h2{
+	font-size: 0.75em;
+	margin: 15px 0 0;
+	font-weight: normal;
+	font-family:'Changa One',sans-serif;
+	line-height: 0.8em
 }
 h3{
-	margin:; 0 0 1 1em 0;
+	margin: 0 0 1 1em 0;
 }
 header
 {
+	float: left;
+	margin: 0 0 30px 0;
 	background: #6ab47b;
 	border-color: #599a68;
+	padding: 5px 0 0 0;
+	width: 100%;
 }
 	
 h1, h2{
@@ -46,37 +63,58 @@ h1, h2{
 }
 
 nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
 	background: #599a68;
 }
 nav a, nav a: visited{
 	color: #fff;
 }
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li{
+	display: inline-block; /*desparte meniul*/
+}
+nav a{
+	color: #fff;
+	font-weight: 800;
+	padding: 15px 10px; /*lasa mai mult spatiu intre componentele meniului*/
+}
 nav a.selected, nav a:hover{
-	color:#32673f;
-
+	color: #fff;
+/*#32673f*/
 }
 body{
 	background-color: #fff;
-	color:#999;
+	color: #999;
 }
 footer{
-	font-size: :0.75em;
+	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	padding-top: 50 px;
 	color: #ccc;
 }
+.social-icon{
+	height: 20px;
+	margin: 0 5px; /*facem iconitele mai mici*/
+}
+
 .profile-photo{
 	display: block;
-	max-width:150px;
+	max-width: 150px;
 	margin: 0 auto 30px;
-	border-radius:100%;
+	border-radius: 100%; /*o pune rotunda*/
 }
 
 .contact-info{
 	display: block;
 	min-height: 20px;
-	background-repeat: :no-repeat;
+	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
@@ -85,7 +123,7 @@ footer{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-:  0.9en;
+	font-size:  0.9en;
 }
 .contact-info li.phone a{
 	background-image: url('.../img/phone.png');
