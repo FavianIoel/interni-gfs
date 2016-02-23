@@ -1,9 +1,10 @@
-/****************************************
+/***************************************
 GENERAL
 *****************************************/
 
 body{
-	font-family: 'Open Sans', sans-serif;
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
 }
 
 .wrapper{
@@ -42,10 +43,11 @@ header{
 }
 
 h1{
-	font-family: 'Changa One', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin: 15px 0;
 	font-size: 1.75em; /* default: 1em= 16px */
-	font-weight: normal;
+	font-weight: 800;
+	font-style: italic;
 	line-height: 0.8em;
 }
 
@@ -79,23 +81,7 @@ nav a{
 
 }
 
-/****************************************
-FOOTER
-****************************************/
-footer{
 
-	font-size: 0.75em;
-	text-align: center;
-	clear:both;
-	padding: 50px 0 0 0;
-	color:#1a1a1a;
-}
-
-.social-icon{
-	width: 30px;
-	height: 30px;
-	margin:0 5px;
-}
 
 /****************************************
 PAGE: PORTFOLIO
@@ -196,7 +182,43 @@ nav a.selected, nav a:hover {
 	color:#4d4d4d;
 }
 
+
+/****************************************
+FOOTER
+****************************************/
+footer{
+
+	font-size: 0.75em;
+	text-align: center;
+	clear:both;
+	padding: 50px 0 0 0;
+	color:#1a1a1a;
+}
+
+.social-icon{
+	width: 30px;
+	height: 30px;
+	margin:0 5px;
+}
 footer{
 	background-color: #e6e6e6;
 	border-top: 2px solid #4d4d4d;
+}
+
+/*sticky footer*/
+
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; 
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+footer, .wrapper:after {
+  height: 100px; 
 }
