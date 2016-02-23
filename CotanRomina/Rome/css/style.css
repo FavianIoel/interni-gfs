@@ -1,0 +1,27 @@
+body {
+	text-align:  center;
+	color: #DEB887;
+	margin:0;
+}
+
+#top {
+	background-color: #DEB887;
+}
+
+h1 {
+	font-size: 72px;
+	color:white;
+}
+
+h2 {
+	font-size: 90px;
+	color:white;
+}
+
+header{
+	background-color: orange;
+}
+
+p {
+	font-size:20px;
+}
