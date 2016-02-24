@@ -1,12 +1,19 @@
 /****************************************
 GENERAL
 *****************************************/
+html, body{
+	margin:0;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
 
 body{
 	font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper{
+	height: auto;
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
@@ -23,6 +30,7 @@ img{
 h3{
 	margin: 0 0 1em 0;
 }
+
 
 /****************************************
 HEADING
@@ -82,12 +90,19 @@ nav a{
 FOOTER
 ****************************************/
 footer{
-
+	display: table-row;
+	height: 1px;
+	
+}
+.footer{
 	font-size: 0.75em;
 	text-align: center;
 	clear:both;
-	padding-top: 50px;
+	padding-top: 30px;
 	color:#ccc;
+	border-top: 1px solid #000;
+	background-color: #ddd;
+	color: #000;
 }
 
 .social-icon{
