@@ -1,9 +1,15 @@
 /*******************************
 	GENERAL
 *******************************/
+html, body {
+	margin: 0;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
 
 body{
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper{
@@ -20,6 +26,9 @@ img {
 	max-width: 100%;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+}
 /*******************************
 	HEADING
 *******************************/
@@ -37,9 +46,9 @@ header{
 }
 
 h1 {
-	font-family: 'Changa One', sans-serif;
-	margin: 15px; 0;
-	font-size: 1.55 em;
+	font-family: 'Lora', sans-serif;
+	margin: 15px 0;
+	font-size: 1.55em;
 	font-weight: normal ;
 	line-height: 0.8em;
 
@@ -48,7 +57,7 @@ h1 {
 
 h2 {
 	font-size: 0.75em;
-	margin: -10px 0 0;
+	margin: -5px 0 0;
 	font-weight: normal;
 }
 
@@ -74,27 +83,37 @@ h2 {
 	}
 
 	nav a {
+		
 		font-weight: 800;
-		padding: 15px 15px;
+		padding: 15px 10px;
 	}
 
 /*******************************
 	FOOTER
 *******************************/
 
-footer{
-	font-size: 0.90em;
+.footer{
+	font-size: 0.75em;
 	text-align: center;
-	clear: both;
-	padding-top: 50px;
-	color:#ccc;
-	background-color: 
+	clear:both ;
+	background: #7f8c8d;
+	padding-top: 5px;
+	width: 100%;
+	color:#fff;
+}
+
+footer{
+	display: table-row;
+	height: 1px;
+
 }
 
 .social-icon {
+	border-image: auto;
 	width: 32px;
 	height: 32px;
 	margin:0 5px;
+	border-radius: 15%;
 }
 
 /*******************************
@@ -122,6 +141,50 @@ footer{
 	color:#bdc3c7;
 }
 
+
+
+/*******************************
+	PAGE:ABOUT
+*******************************/
+
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 15%;
+}
+
+
+/*******************************
+	PAGE: CONTACT
+*******************************/
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png')
+}
+.contact-info li.mail a{
+	background-image: url('../img/mail.png')
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter2.png')
+}
+
+
 /*******************************
 	COLORS
 *******************************/
@@ -134,29 +197,29 @@ body {
 
 /*green header*/
 header{
-	background: #005c40;
-	border-color: #599a68;
+	background: #95a5a6;
+	border-color: #fff;
 }
 
 /*logo text*/
 h1, h2{
-	color:	#9cfce4;
+	color:	#fff;
 }
 
 /*nav background on mobile*/
 nav{
-	background: #284f37;
+	background: #7f8c8d;
 }
 
 /*nav link*/
 nav a, nav a:visited {
-	color: #9cfce4;
+	color: #fff;
 
 }
 
 /*selected nav link*/
 nav a.selected, nav a:hover{
-	color: #32673f;
+	color: #bdc3c7;
 }
 
 a{
