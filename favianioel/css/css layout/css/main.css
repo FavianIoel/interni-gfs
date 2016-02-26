@@ -1,0 +1,141 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a ,
+.name a {
+
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a,
+.main-nav a{
+	padding: 10px 15px;
+	display: block
+
+}
+/* ---- Layout Containers ---- */
+.container {
+	padding-left: 1em ;
+	padding-right: 1em;
+}
+.main-header {
+	/*text-align: center;*/
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #3acec2;
+	margin-bottom: 30px;
+	box-shadow: 5px 0 7px #ea3d00;
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+	box-shadow: 10px  0 20px  #222;
+}
+
+/* ---- Page Elements ---- */
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 85%;
+		max-width: 1150px;
+		margin: 0 auto ;
+	}
+	.main-nav {
+		float: right;
+	}
+	.name {
+		float: left;
+	}
+    .feat-img {
+	    width: 300px;
+	    float: left;
+	    margin: 5px 25px 25px 0 ;
+	    padding: 5px 5px 5px 5px;
+	    border : solid 1px #d9e4ea;
+    }
+
+	.name,
+	.main-nav,
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.name {
+		width: 240px;
+		margin-right: 50px ;
+	}
+
+	.main-nav li{
+		margin-right: 12px;
+	}
+/* ---- columns layout ---- */
+ 
+.col {
+	display: inline-block;
+	width: 50%;
+	margin-right:  -4px;
+	vertical-align: top;
+	padding-left: 1em ;
+	padding-right: 1em;
+	
+}
+.primary {
+width: 75%;
+}
+.secondary{
+	width: 25%;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+}
