@@ -43,7 +43,7 @@
 
 
 
-@media screen and (min-width: 660px)
+@media screen and (min-width: 768px)
 {
 	
 
@@ -76,7 +76,6 @@
 				margin-bottom: 20px;
 			}
 			header {
-				border-bottom: 5px solid #599a68;
 				margin-bottom: 60px;
 			}
 
