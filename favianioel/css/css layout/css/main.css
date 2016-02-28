@@ -1,77 +1,116 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
+
 * {
 	box-sizing: border-box;
 }
 
 body {
+	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
 	color: #3a3a3a;
+	background-color: #f4f4f4;
 }
 
-a { 
-	color: #fff;
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #ea9a61;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
 	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
 }
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
+
 /* ---- Navigation ---- */
 
 .name {
 	font-size: 1.25em;
+	margin: 0;
 }
 
-.name,
-.main-nav li {
+.main-nav {
+	margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
 	text-align: center;
-	background: #fff;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	display: block;
+	padding: 10px 15px;
 }
 
-.main-nav a ,
-.name a {
-
+.main-nav a {
 	font-size: .95em;
-	color: #3acec2;
+	color: #66b9bf;
 	text-transform: uppercase;
 }
 
 .main-nav a:hover {
-	color: #093a58;
+	color: #eeaa7b;
 }
 
-.name a,
-.main-nav a{
-	padding: 10px 15px;
-	display: block
-
-}
 /* ---- Layout Containers ---- */
-.container {
-	padding-left: 1em ;
-	padding-right: 1em;
-}
+
 .main-header {
-	/*text-align: center;*/
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background: #3acec2;
-	margin-bottom: 30px;
-	box-shadow: 5px 0 7px #ea3d00;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+	text-align: center;
+}
+
+.banner {
+	color: #fcf1e8;
+	background: #66b9bf;
+	padding: 3.2em 0;
+	margin-bottom: 60px;
+	border-top: 6px solid #07889b;
+	border-bottom: 6px solid #eeaa7b;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .main-footer {
-	text-align: center;
+	background: #eeaa7b;
 	padding: 2em 0;
-	background: #d9e4ea;
-	box-shadow: 10px  0 20px  #222;
+	margin-top: 30px;
+	border-top: 5px solid #f3c5a5;
 }
 
 /* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
 
 /* ================================= 
   Media Queries
@@ -79,63 +118,71 @@ a {
 
 @media (min-width: 769px) {
 
-	.wrap {
-		min-height: calc(100vh - 89px);
+	.container {
+		width: 90%;
+		margin: 0 auto;
 	}
 
-	.container {
-		width: 85%;
-		max-width: 1150px;
-		margin: 0 auto ;
+	.name,
+	.col {
+		float: left;
 	}
+
+	.primary,
+	.secondary {
+		width: 50%;
+	}
+
 	.main-nav {
 		float: right;
 	}
-	.name {
-		float: left;
-	}
-    .feat-img {
-	    width: 300px;
-	    float: left;
-	    margin: 5px 25px 25px 0 ;
-	    padding: 5px 5px 5px 5px;
-	    border : solid 1px #d9e4ea;
-    }
 
-	.name,
-	.main-nav,
 	.main-nav li {
 		display: inline-block;
+		margin-left: 15px;
 	}
 
-	.name {
-		width: 240px;
-		margin-right: 50px ;
+	.tagline {
+		font-size: 1.4em;
 	}
 
-	.main-nav li{
-		margin-right: 12px;
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
 	}
-/* ---- columns layout ---- */
- 
-.col {
-	display: inline-block;
-	width: 50%;
-	margin-right:  -4px;
-	vertical-align: top;
-	padding-left: 1em ;
-	padding-right: 1em;
+
+}
+
+@media (min-width: 1025px) {
 	
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+	.primary {
+		width: 40%;
+	}
+
+	.secondary,
+	.tertiary {
+		width: 30%;
+	}
+
 }
-.primary {
-width: 75%;
-}
-.secondary{
-	width: 25%;
-}
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
