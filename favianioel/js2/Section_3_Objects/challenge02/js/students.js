@@ -1,32 +1,32 @@
-var students = [ 
+var studenti = [ 
   { 
-   name: 'Dave',
-    track: 'Front End Development',
-    achievements: 158,
-    points: 14730
-  },
-  {
-    name: 'Jody',
-    track: 'iOS Development with Swift',
-    achievements: '175',
-    points: '16375'
-  },
-  {
-    name: 'Jordan',
+    nume: 'Favian',
     track: 'PHP Development',
-    achievements: '55',
-    points: '2025'
+    realizari: 158,
+    puncte: 14730
   },
   {
-    name: 'John',
-    track: 'Learn WordPress',
-    achievements: '40',
-    points: '1950'
+    nume: 'Teo',
+    track: 'Java Developer',
+    realizari: '175',
+    puncte: '16375'
   },
   {
-    name: 'Trish',
-    track: 'Rails Development',
-    achievements: '5',
-    points: '350'
+    nume: 'Romina',
+    track: 'Front end Development',
+    realizari: '55',
+    puncte: '2025'
+  },
+  {
+    nume: 'Andrei',
+    track: 'C## Development',
+    realizari: '40',
+    puncte: '1950'
+  },
+  {
+    nume: 'Maria',
+    track: 'Back end Development',
+    realizari: '5',
+    puncte: '350'
   }
 ];
