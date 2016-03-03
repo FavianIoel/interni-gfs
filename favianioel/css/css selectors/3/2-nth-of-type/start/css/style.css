@@ -1,0 +1,6 @@
+/* Structural Pseudo-classes------------------ */
+
+div:nth-last-of-type(3) {
+  background: #abba15;
+  color: white;
+}
