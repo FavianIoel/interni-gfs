@@ -17,7 +17,8 @@ body {
 }
 .image {
   position: absolute;
-  top: 20%;
+  border: 5px solid #e1dfbe ;
+  top: 30%;
   width: 100%;
   text-align: center;
   z-index: -1
