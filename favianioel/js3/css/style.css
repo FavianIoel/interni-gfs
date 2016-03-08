@@ -1,13 +1,17 @@
 /* Basic Style */
 body {
-  background: #fff;
-  color: #333;
+  background: #383838;
+  color: #ffffff;
   font-family: Lato, sans-serif;
 }
 .container {
   display: block;
   width: 400px;
   margin: 100px auto 0;
+  background-color: #4e4e4e;
+  padding: 30px;
+  border-radius: 5%;
+  border: 2px solid #e3e3e3;
 }
 ul {
   margin: 0;
@@ -19,6 +23,7 @@ li * {
 li, h3 {
   clear:both;
   list-style:none;
+  color: #ffffff;
 }
 input, button {
   outline: none;
@@ -26,7 +31,7 @@ input, button {
 button {
   background: none;
   border: 0px;
-  color: #888;
+  color: #d7d7d7;
   font-size: 15px;
   width: 60px;
   margin: 10px 0 0;
@@ -39,10 +44,10 @@ button:hover {
 /* Heading */
 h3,
 label[for='new-task'] {
-  color: #333;
+  color: #ffffff;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #ffffff;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -73,9 +78,11 @@ input#new-task {
   width: 318px;
 }
 p > button:hover {
-  color: #0FC57C;
+  color: #5bba24;
 }
-
+.edit:hover {
+  color: #ffff00;
+}
 /* Task list */
 li {
   overflow: hidden;
