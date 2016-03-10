@@ -1,6 +1,6 @@
 var	playList	=	[];
 
-	playList.push('7 years - Lukas Graham')
+	playList.push('7 years - Lukas Graham');
 	playList.push(
 		'Work (feat. Drake) - Rihanna',
 		'Fast Car (feat. Dakota) - Jonas Blue', 
@@ -17,6 +17,6 @@ var	playList	=	[];
 		'Adventure Of A Lifetime - Coldplay',
 		'Get Ugly - Jason Derulo'
 		
-		)
+		);
 
-printList(playList)
+printList(playList);

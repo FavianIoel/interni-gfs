@@ -16,7 +16,7 @@
  var rand2 = userNumber + Math.floor(Math.random()* userNumber) +1 ;
 
 
- var message = "<h1>your number " + userNumber + " is betwen " + rand1 + " & " + rand2 +"</h1>"
+ var message = "<h1>your number " + userNumber + " is betwen " + rand1 + " & " + rand2 +"</h1>";
  document.write(message);
 
 

@@ -2,7 +2,7 @@ var min = prompt ("Introd. min: ");
 var max = prompt ("Introd max: ");
 
 if(  isNaN(min)  ||  isNaN(max)  === true   ) {
-    alert("you should type only Digits, \n ! Please refresh the page !")
+    alert("you should type only Digits, \n ! Please refresh the page !");
  throw new Error ('You should type only DIGITS  ');
 }
 

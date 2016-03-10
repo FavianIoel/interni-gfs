@@ -15,7 +15,7 @@ var	playList	=	['7 years - Lukas Graham'];
 		'Adventure Of A Lifetime - Coldplay',
 		'Get Ugly - Jason Derulo'
 		
-	)
+	);
 
 function print(message) {
 	  document.write(message);
@@ -28,8 +28,7 @@ function printList( list ) {
 
 			listHTML	+=	'<li>'	+	list[i]	+	'</li>';
 
-		};
-		
+		}
 	listHTML	+=	'<ol>';
 	print(listHTML);
 }

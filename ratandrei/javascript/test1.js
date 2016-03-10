@@ -36,7 +36,7 @@ compare(userChoice, computerChoice);
 var mesaj1 = prompt("New game?");
 if(mesaj1 === "yes")
 {
-   var mesaj = prompt("alba sau neagra?")
+   var mesaj = prompt("alba sau neagra?");
 var pcChoice = Math.random();
 if (pcChoice <= 0.70)
 {
@@ -66,7 +66,7 @@ var compare = function(var1, var2)
         }
     }
     
-}
+};
 compare(userChoice, pcChoice)
 }
 else

@@ -4,4 +4,4 @@ var person = {
 	age		:  35,
 	treehouseStudent : true,
 	skills	: ['javaScript', 'HTML', 'CSS']
-}
+};

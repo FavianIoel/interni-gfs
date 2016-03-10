@@ -1,4 +1,4 @@
-					var game2 = prompt ('Do you want to play a game (yes or no) ?')
+					var game2 = prompt ('Do you want to play a game (yes or no) ?');
 					function looser()
 					{
 						alert('Loooossseeerrr!');
@@ -51,7 +51,7 @@
 								document.write("<br>Nu ai ghicit. Urmeaza pedeapsa.");
 								repeat1();
 							}
-						}
+						};
 						comp(myChoice, pcChoice);
 					}
 					else

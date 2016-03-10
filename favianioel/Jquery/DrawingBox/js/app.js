@@ -14,7 +14,7 @@ $(".controls").on("click", " li " , function() {
     $(this).siblings().removeClass("selected");
 
     //Select clicked element
-    $(this).addClass("selected")
+    $(this).addClass("selected");
 
     //select clicked element
     color   =   $(this).css("background-color");

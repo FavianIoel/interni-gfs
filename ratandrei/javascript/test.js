@@ -1,4 +1,4 @@
-			var game = prompt ('Do you want to play a game (yes or no) ?')
+			var game = prompt ('Do you want to play a game (yes or no) ?');
 			if(game === "yes")
 			function looser(){
 				alert('Loooossseeerrr!');
@@ -13,7 +13,7 @@
 			}		
 		{
 
-			var userChoice= prompt('Do you choose rock, paper or scissors?')
+			var userChoice= prompt('Do you choose rock, paper or scissors?');
 			var compChoice = Math.random ();
 
 			if(compChoice <0.34)
