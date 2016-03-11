@@ -11,7 +11,7 @@
    $.get('missing.html', function(data) {
        $('#myDiv').html(data);
    }).fail(function (jqXHR) {
-     var errorMessage = "<p>Sorry! There‚'s been an error. ";
+     var errorMessage = "<p>Sorry! There's been an error. ";
      errorMessage += "Please try again later.</p>";
      $('#myDiv').html(errorMessage);
    });

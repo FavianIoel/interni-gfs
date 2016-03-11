@@ -1,0 +1,82 @@
+[
+  {
+   "room": 101,
+   "available": false
+  },
+  {
+   "room": 102,
+   "available": true
+  },
+  {
+   "room": 103,
+   "available": false
+  },
+  {
+   "room": 104,
+   "available": false
+  },
+  {
+   "room": 105,
+   "available": true
+  },
+  {
+   "room": 106,
+   "available": true
+  },
+    {
+   "room": 107,
+   "available": true
+  },
+    {
+   "room": 108,
+   "available": true
+  },
+    {
+   "room": 109,
+   "available": true
+  },
+    {
+   "room": 110,
+   "available": false
+  },
+  {
+   "room": 111,
+   "available": true
+  },
+  {
+   "room": 112,
+   "available": false
+  },
+  {
+   "room": 113,
+   "available": false
+  },
+  {
+   "room": 114,
+   "available": true
+  },
+  {
+   "room": 115,
+   "available": false
+  },
+    {
+   "room": 116,
+   "available": true
+  },
+    {
+   "room": 117,
+   "available": true
+  },
+    {
+   "room": 118,
+   "available": false
+  },
+    {
+   "room": 119,
+   "available": true
+  },
+    {
+   "room": 120,
+   "available": true
+  }
+]

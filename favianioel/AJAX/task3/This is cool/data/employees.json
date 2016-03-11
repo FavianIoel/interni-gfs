@@ -9,7 +9,7 @@
   },
   {
    "name": "Ben",
-   "inoffice": true
+   "inoffice": false
   },
   {
    "name": "Dan",
@@ -45,6 +45,14 @@
   },
   {
    "name": "Zac",
+   "inoffice": false
+  },
+    {
+   "name": "Floricica",
+   "inoffice": true
+  },
+  {
+   "name": "Ioan",
    "inoffice": false
   }
 ]
