@@ -1,0 +1,21 @@
+
+[
+
+  {
+    "name":"Jim",
+    "inoffice":false
+  },
+  {
+    "name":"Ben",
+    "inoffice":true
+  },
+  {
+    "name":"Dan",
+    "inoffice":false
+  },
+  {
+    "name":"Dave",
+    "inoffice":true
+  }
+
+]
