@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AJAX Flickr Photo Feeder</title>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/flickr.js"></script>
+  
+</head>
+<body>
+  <div class="grid-container centered">
+    <div class="grid-100">
+      <div class="contained">
+        <div class="grid-100">
+          <div class="heading">
+            <center>
+            <h1>Flickr Photo Search</h1>
+            <form>
+              <label for="search">Type a search term</label><br>
+              <input type="search" name="search" id="search"><br><br>
+              <input type="submit" value="Search" id="submit">
+            </form>
+            </center>
+          </div>
+          <!-- here start the buttons -->
+          <ul class="filter-select">
+            <li><button>Dog</button></li>
+            <li><button>Cat</button></li>
+            <li><button>Moose</button></li>
+          </ul>
+          <!-- here ends the buttons -->
+        </div>
+
+        <div id="photos">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
