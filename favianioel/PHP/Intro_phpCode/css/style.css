@@ -19,7 +19,6 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
-
 /* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
@@ -65,7 +64,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 24, ../sass/style.sass */
 body {
-  background: #edeff0;
+  background: #272822;
+  background-image: url("../img/smoke.png");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position: right top;
   font-family: Helvetica, sans-serif;
 }
 
@@ -100,6 +103,7 @@ h3 {
 p {
   font-size: 14px;
   line-height: 20px;
+  color: white;
 }
 
 /* line 45, ../sass/style.sass */
@@ -120,7 +124,10 @@ ul {
 
 /* line 54, ../sass/style.sass */
 .sidebar {
-  background: #2d3339;
+  border-right: solid #818181 5px;  
+  background: #E6E6E6;
+  background-image: url("../img/drops.png");
+  background-repeat: no-repeat;
   position: fixed;
   top: 0;
   left: 0;
@@ -138,8 +145,6 @@ ul {
     width: 100%;
   }
 }
-
-/* line 67, ../sass/style.sass */
 .main {
   margin-left: 240px;
   padding: 20px;
@@ -160,12 +165,12 @@ ul {
 }
 /* line 78, ../sass/style.sass */
 .sidebar h1 {
-  color: #edeff0;
+  color: #272822;
 }
 /* line 80, ../sass/style.sass */
 .sidebar h2,
 .sidebar p {
-  color: #afb5bb;
+  color: #261225;
 }
 /* line 83, ../sass/style.sass */
 .sidebar hr {
@@ -258,7 +263,7 @@ ul {
 
 /* line 136, ../sass/style.sass */
 .main .module {
-  border-bottom: 1px solid #d1d6d9;
+  border-bottom: 1px solid #D9D3D1;
   padding: 20px;
   margin: 0 -20px;
   float: left;
