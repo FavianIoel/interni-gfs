@@ -1,48 +1,43 @@
 <?php 
-$pageTitle = 'Unique T-shirts designed by a frog';
-$section="";
-include("inc/header.php"); ?>
 
-		<div class="section banner">
+require_once("inc/config.php");
+include(ROOT_PATH . "inc/products.php");
+$recent = get_products_recent();
 
-			<div class="wrapper">
+$pageTitle = "Unique T-shirts designed by a frog";
+$section = "home";
+include(ROOT_PATH . 'inc/header.php'); ?>
+        <div class="section banner">
 
-				<img class="hero" src="img/mike-the-frog.png" alt="Mike the Frog says:">
-				<div class="button">
-					<a href="shirts.php">
-						<h2>Hey, I&rsquo;m Mike!</h2>
-						<p>Check Out My Shirts</p>
-					</a>
-				</div>
-			</div>
+            <div class="wrapper">
 
-		</div>
+                <img class="hero" src="<?php echo BASE_URL; ?>img/mike-the-frog.png" alt="Mike the Frog says:">
+                <div class="button">
+                    <a href="<?php echo BASE_URL; ?>shirts/shirts.php">
+                        <h2>Hey, I&rsquo;m Mike!</h2>
+                        <p>Check Out My Shirts</p>
+                    </a>
+                </div>
+            </div>
 
-		<div class="section shirts latest">
+        </div>
 
-			<div class="wrapper">
+        <div class="section shirts latest">
 
-				<h2>Mike&rsquo;s Latest Shirts</h2>
+            <div class="wrapper">
 
-				<?php include("inc/products.php"); ?>	
-				<ul class="products">
-				<?php  
-						$total_products = count($products);
-						$position = 0;
-						$list_view_html = "";
-						foreach ($products as $product_id => $product) {
-							$position ++;
-							if ($total_products - $position < 4) {
-								$list_view_html =  get_list_view_html($product_id, $product) . $list_view_html ;
-							}
-							
-						}
-					echo $list_view_html;
-				?>							
-				</ul>
+                <h2>Mike&rsquo;s Latest Shirts</h2>
 
-			</div>
+                <ul class="products">
+                    <?php
+                        foreach(array_reverse($recent) as $product) {
+                            include(ROOT_PATH . "inc/partial-product-list-view.html.php");
+                        }
+                    ?>
+                </ul>
 
-		</div>
+            </div>
 
-<?php include('inc/footer.php'); ?>
+        </div>
+
+<?php include(ROOT_PATH . 'inc/footer.php') ?>

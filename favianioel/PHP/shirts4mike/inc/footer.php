@@ -1,4 +1,3 @@
-	
 	</div>
 
 	<div class="footer">
@@ -10,7 +9,7 @@
 				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 			</ul>
 
-			<p>&copy;<?php echo date("Y"); ?> Shirts 4 Mike</p>
+			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
 
 		</div>
 	

@@ -1,0 +1,70 @@
+
+body{ 
+background: url(images/background.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: cover;
+
+} 
+/*FONTS & COLORS*/
+  p , h2 , h3 , li {
+  color: #c1d7d7 ;
+ }
+h1{
+	font-size: 70px;
+	color:white;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 30px;
+}
+a , li , p{
+	font-size: 20px;
+  
+}
+a{
+  text-decoration: none;
+  color: white ;
+}
+a:hover{
+  color: #c1d7d7 ;
+}
+/*remove list dots*/
+ul , li {
+list-style-type: none;
+}
+
+/*styled hr curved line*/
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: #c1d7d7;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #c1d7d7;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+/*padings */
+section{
+  padding: 20px ;
+}
+section.genre{
+padding-top: 15% ;
+}
+footer  {
+  padding-left: 20px;
+}
+header{
+  padding-left: 20px;
+}
