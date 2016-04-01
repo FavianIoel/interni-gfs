@@ -1,8 +1,11 @@
 <?php
-	require_once('models/conn_db.php');
-	include('models/model_actors.php');
-	include('models/model_genres.php');
+include('views/inc/header.php');
+?>
+<?php
+require_once('models/conn_db.php');
+	include('models/db_func.php');
 	include('views/view_movies.tpl.php');
 ?>
-
-
+<?php
+include('views/inc/footer.php');
+?>

@@ -1,9 +1,4 @@
-
-<html >
-<head>
-</head>
-<body>
-  <!-- back to movies / heading title . -->
+ <!-- back to movies / heading title . -->
 <header>
      <p>
       <a class="btn btn-default" href="index.php" role="button">Home</a>
@@ -20,7 +15,7 @@
         <h2 title="year"> <?php print($movie_details['year']); ?> </h2>
 
         <?php
-        for ($i = 1; $i <= count($movies); $i++) { ?><?php } ?> 
+        for ($i = 0; $i <= count($arrayMovies); $i++) { ?><?php } ?> 
 
          <img src="<?php print($movie_details['poster']); ?>" title="go to info" alt="poter" class="img-rounded">
        </a>
@@ -28,9 +23,11 @@
 
      <h3>Genre:</h3>
      <?php
-     foreach ($movie_details["genres"] as $movie_detail_genres) {
+     if(is_array($movie_genres["genres"])){
+     foreach ($movie_genres["genres"] as $movie_detail_genres) {
       echo'<a href="movies_genres.php?genre=' . $movie_detail_genres .'">' . $movie_detail_genres . "</a>" . " ";
     }
+  }
     ?> 
 </section>
 
@@ -41,10 +38,19 @@
 
 <section>
   <h3>Cast:</h3>
-  <p><img src="<?php print($movie_actors['image1']); ?>" class="img-rounded"> <?php print($movie_actors['actor1'] ); ?> </p>
-  <p><img src="<?php print($movie_actors['image2']); ?>" class="img-rounded"> <?php print($movie_actors['actor2'] ); ?> </p>
-  <p><img src="<?php print($movie_actors['image3']); ?>" class="img-rounded"> <?php print($movie_actors['actor3'] ); ?> </p>
+<?php 
+
+if(is_array($movie_cast)){
+  for ($i=0; $i < 3; $i++) { 
+    ?>
+    <p><img src="<?php echo $movie_cast["profile"][$i]; ?>" class="img-rounded"> <?php echo $movie_cast["actors"][$i]; ?> </p>
+    <?php
+  }//end of for
+
+}//and of if:
+ ?>
 </section>
+
 
 
 
@@ -55,5 +61,3 @@
   </p>
 </footer>
 
-</body>
-</head>

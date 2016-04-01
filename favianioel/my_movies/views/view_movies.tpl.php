@@ -1,10 +1,4 @@
-<?php include('models/db_func.php');  ?>
-<html>
-<head>
-</head>
-<body>
-  <center>
-
+<center>
     <header>
       <h1>My movies</h1>
     </header>
@@ -12,6 +6,7 @@
     <section>
       <ul> 
        <?php 
+         if(is_array($arrayMovies)){
          for ($i = 0; $i < count($arrayMovies); $i++) { 
        ?>
        <li>
@@ -19,10 +14,9 @@
          <?php echo $arrayMovies[$i]['title']; 
        echo '</a>';
      echo '</li>';
-      } ?>
+      } 
+}
+      ?>
      <ul> 
      </section>
    </center>
-
- </body>
- </html>
