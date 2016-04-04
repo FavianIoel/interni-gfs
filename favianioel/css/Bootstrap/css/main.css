@@ -1,0 +1,232 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+    /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border: 0px;
+  text-shadow: none;
+  background-color: transparent;
+  border: solid;
+  padding: 5px 20px 5px 20px
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  border: solid #FB9C00;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #2A282B;
+  margin: 0 0 30px;
+  border: solid #000000
+}
+.btn-secondary:hover {
+  background-color: transparent;
+  color: #2A282B;
+  border: solid #FB9C00;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: #000000;
+  color:#fff;
+}
+
+
+/*Dropdown login */
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    color:#ffffff;
+    background-color:rgba(220,220,220,.8);
+}
+#login-dp .help-block{
+    font-size:12px    ss
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:solid #ddd;
+    clear:both;
+    padding:14px;
+}
+.text-center{
+  color: #706A6A;
+}
+.sign-in{
+  color: #706A6A;
+}
+/*google API*/
+#map {
+  
+  height: 400px;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #000000;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/*Signup form*/
+
+    #logbox {
+
+        padding: 10px;
+        margin: 50px auto;
+        width: 340px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 175%;
+        color: #757575;
+        font-weight: 300;
+    }
+
+
+    .input {
+        width: 75%;
+        height: 50px;
+        display: block;
+        margin: 0 auto 15px;
+        padding: 0 15px;
+        border: none;
+        border-bottom: 2px solid #ebebeb;
+    }
+    .input:focus {
+        outline: none;
+        border-bottom-color: #FFCB76 !important;
+    }
+    .input:hover {
+        border-bottom-color: #FB9C00;
+    }
+    .input:invalid {
+        box-shadow: none;
+    }
+
+    .pass:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
+    }
+
+    .inputButton {
+        position: relative;
+        width: 85%;
+        height: 50px;
+        display: block;
+        margin: 30px auto 30px;
+        color: white;
+        background-color: #FB9C00;
+        border: none;
+        -webkit-box-shadow: 0 5px 0 #C08421;
+        -moz-box-shadow: 0 5px 0 #C08421;
+        box-shadow: 0 5px 0 #C08421;
+    }
+    .inputButton:hover {
+        top: 2px;
+        -webkit-box-shadow: 0 3px 0 #C08421;
+        -moz-box-shadow: 0 3px 0 #C08421;
+        box-shadow: 0 3px 0 #C08421;
+    }
+    .inputButton:active {
+        top: 5px;
+        box-shadow: none;
+    }
+    .inputButton:focus {
+        outline: none;
+    }
+
