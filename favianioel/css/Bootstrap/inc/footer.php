@@ -2,19 +2,16 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <p class="col-sm-4">&copy; 2016 Vimperial</p>
-        <ul class="col-sm-8">
-          <li class="col-sm-1">
+        <p class="col-sm-4 col-xm-4">&copy; 2016 Vimperial</p>
+        <ul class="col-sm-8 col-xm-8">
+          <li class="col-sm-1 col-xm-1">
             <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></a>
           </li>
-          <li class="col-sm-1">
+          <li class="col-sm-1 col-xm-1">
             <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></a>
           </li>
-          <li class="col-sm-1">
+          <li class="col-sm-1 col-xm-1">
             <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></a>
-          </li>
-          <li class="col-sm-1">
-            <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></a>
           </li>
         </ul>
         </div>

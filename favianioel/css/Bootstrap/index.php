@@ -11,19 +11,19 @@
   </section>
   <section class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-xs-6">
         <p>NEW TREND</p>
         <img src="http://images.asos-media.com/inv/media/7/8/9/5/5775987/image4xxl.jpg">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-xs-6">
         <p>NEUTRAL COLORS</p>
         <img src="http://images.asos-media.com/inv/media/6/2/8/9/5829826/camel/image1xxl.jpg">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-xs-6">
         <p>STUDENT STYLE</p>
         <img src="http://images.asos-media.com/inv/media/7/0/4/6/6286407/yellow/image1xxl.jpg">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-xs-6">
         <p>SHOES</p>
         <img src="http://images.asos-media.com/inv/media/8/8/7/5/5945788/image3xxl.jpg">
       </div>

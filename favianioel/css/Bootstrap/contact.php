@@ -6,7 +6,7 @@
       <div class="row text-center">
       	
         <h2>Please contact us</h2>
-        <p>********************************************************</p>
+        <p>* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
         <a class="btn btn-primary" href="mailto:favianioel@gmail.com">Mail US</a>
         
       </div>
@@ -14,8 +14,8 @@
   </section>
   <section class="container">
   		<div class="row">
-  			<div id="map" class="col-sm-9 "></div>
-  			<div class="col-sm-3">
+  			<div id="map" class="col-sm-9 col-xs-12"></div>
+  			<div class="col-sm-3 col-xs-12">
   				<h1>contact details:</h1>
   				<h3>Number:</h3><p>0736171593</p>
   				<h3>Street:</h3><p>433 Broadway <br>New York, NY 10013</p>

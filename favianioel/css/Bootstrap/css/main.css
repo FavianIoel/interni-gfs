@@ -128,7 +128,7 @@ footer li img {
     background-color:rgba(220,220,220,.8);
 }
 #login-dp .help-block{
-    font-size:12px    ss
+    font-size:12px;
 }
 #login-dp .bottom{
     background-color:rgba(255,255,255,.8);
@@ -149,13 +149,12 @@ footer li img {
 }
 @media(max-width:768px){
     #login-dp{
-        background-color: inherit;
         color: #000000;
     }
     #login-dp .bottom{
-        background-color: inherit;
         border-top:0 none;
     }
+
 }
 
 /*Signup form*/
@@ -164,7 +163,8 @@ footer li img {
 
         padding: 10px;
         margin: 50px auto;
-        width: 340px;
+        width: auto;
+        max-width: 340px ;
         background-color: #fff;
         -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
         -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -179,14 +179,18 @@ footer li img {
     }
 
 
-    .input {
-        width: 75%;
+    .input{
+        width: 70%;
         height: 50px;
         display: block;
         margin: 0 auto 15px;
         padding: 0 15px;
         border: none;
         border-bottom: 2px solid #ebebeb;
+    }
+    form span {
+        margin: 0 auto 15px;
+        padding: 0 15px;
     }
     .input:focus {
         outline: none;
